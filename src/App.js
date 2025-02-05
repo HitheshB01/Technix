@@ -1,0 +1,39 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Container from './components/Container'; // Import the Container component
+import BGMI from './festEvents/BGMI'; // Import the BGMI component
+import Coding from './festEvents/Coding';
+import ITQuiz from './festEvents/ITQuiz';
+import WebDesign from './festEvents/WebDesign';
+import TreasureHunt from './festEvents/TreasureHunt';
+import ITManager from './festEvents/ITManager';
+import SurpriseEvent from './festEvents/SurpriseEvent';
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        {/* Home Page with Navbar, Homepage, EventSection, and Footer */}
+        <Route path="/" element={<Container/>} />
+
+        {/* BGMI Page (Replaces EventSection) */}
+        <Route path="/events/bgmi" element={<Container content={<BGMI />} />} />
+        <Route path="/events/coding" element={<Container content={<Coding/>} />} />
+        <Route path="/events/itQuiz" element={<Container content={<ITQuiz/>} />} />
+        <Route path="/events/webDesign" element={<Container content={<WebDesign/>} />} />
+        <Route path="/events/treasureHunt" element={<Container content={<TreasureHunt/>} />} />
+        <Route path="/events/itManager" element={<Container content={<ITManager/>} />} />
+        <Route path="/events/surpriseEvent" element={<Container content={<SurpriseEvent/>} />} />
+        <Route path="/events/photography" element={<Container content={<ITQuiz/>} />} />
+
+
+
+
+        {/* Add more routes for other events if needed */}
+        {/* Example: <Route path="/events/it-quiz" element={<Container content={<ITQuiz />} />} /> */}
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;

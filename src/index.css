@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('https://source.unsplash.com/1600x900/?magic,castle');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.font-futuristic {
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Exo 2', sans-serif; */
+  font-family: 'Rajdhani', sans-serif;
+
+
+}
