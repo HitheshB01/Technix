@@ -1,5 +1,5 @@
 
-import img from '../images/trans_bg.png'
+import img from '../images/Picsart_25-02-06_11-43-23-500.png'
 const ITManager = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6">

@@ -7,6 +7,7 @@ import About from './About';
 import GeneralRules from './GeneralRules';
 import AdvisoryPanel from './AdvisoryPanel';
 import Coordinator from './Coordinator';
+import Sponsor from './Sponser';
 
 const Container = ({ content }) => {
   return (
@@ -24,6 +25,7 @@ const Container = ({ content }) => {
             <EventSection />
             <AdvisoryPanel/>
             <Coordinator/>
+            <Sponsor/>
           </>
         )}
       </main>
