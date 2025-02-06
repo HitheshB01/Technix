@@ -92,13 +92,13 @@ const BGMI = () => {
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
             <h3 className="text-xl font-bold text-yellow-500 font-magic">
-              Santosh G
+              Santosh
             </h3>
             <a
               href="tel:+918660510372"
               className="text-yellow-300 hover:underline"
             >
-              +91 8660510372
+              8660510372
             </a>{" "}
           </div>
 
@@ -116,7 +116,7 @@ const BGMI = () => {
               href="tel:+918618072614"
               className="text-yellow-300 hover:underline "
             >
-              +91 8618072614
+              8618072614
             </a>{" "}
           </div>
         </div>

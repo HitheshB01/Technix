@@ -82,7 +82,7 @@ const ITManager = () => {
               href="tel:+91725985841"
               className="text-yellow-300 hover:underline "
             >
-              +91 725985841
+              725985841
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -93,13 +93,13 @@ const ITManager = () => {
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
             <h3 className="text-xl font-bold text-yellow-500 font-magic">
-              Abhishek Sunil
+              Abhishek
             </h3>
             <a
               href="tel:+918088594273"
               className="text-yellow-300 hover:underline "
             >
-              +91 8088594273
+              8088594273
             </a>          </div>
         </div>
       </div>

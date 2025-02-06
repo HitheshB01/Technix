@@ -78,13 +78,13 @@ const Coding = () => {
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
             <h3 className="text-xl font-bold text-yellow-500 font-magic">
-              Abhishek Bhatt
+              Abhishek
             </h3>
             <a
               href="tel:+917005808873"
               className="text-yellow-300 hover:underline "
             >
-              +91 7005808873
+              7005808873
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -101,7 +101,7 @@ const Coding = () => {
               href="tel:+917483158421"
               className="text-yellow-300 hover:underline "
             >
-              +91 7483158421
+              7483158421
             </a>          </div>
         </div>
       </div>

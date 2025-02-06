@@ -91,7 +91,7 @@ const ITQuiz = () => {
               href="tel:+919880231462"
               className="text-yellow-300 hover:underline "
             >
-              +91 9880231462
+              9880231462
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -108,7 +108,7 @@ const ITQuiz = () => {
               href="tel:+918904291356"
               className="text-yellow-300 hover:underline "
             >
-              +91 8904291356
+              8904291356
             </a>          </div>
         </div>
       </div>

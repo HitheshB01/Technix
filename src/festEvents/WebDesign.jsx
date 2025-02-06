@@ -92,7 +92,7 @@ const WebDesign = () => {
               href="tel:+917339722954"
               className="text-yellow-300 hover:underline "
             >
-              +91 7339722954
+              7339722954
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -109,7 +109,7 @@ const WebDesign = () => {
               href="tel:+919535907059"
               className="text-yellow-300 hover:underline "
             >
-              +91 9535907059
+              9535907059
             </a>          </div>
         </div>
       </div>

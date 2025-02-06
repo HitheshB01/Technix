@@ -88,7 +88,7 @@ const TreasureHunt = () => {
               href="tel:+916360617993"
               className="text-yellow-300 hover:underline "
             >
-              +91 6360617993
+              6360617993
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -105,7 +105,7 @@ const TreasureHunt = () => {
               href="tel:+917411775033"
               className="text-yellow-300 hover:underline "
             >
-              +91 7411775033
+              7411775033
             </a>          </div>
         </div>
       </div>

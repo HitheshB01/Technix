@@ -77,7 +77,7 @@ const SurpriseEvent = () => {
               href="tel:+917337784472"
               className="text-yellow-300 hover:underline "
             >
-              +91 7337784472
+              7337784472
             </a>          </div>
 
           {/* Event Coordinator 2 */}
@@ -94,7 +94,7 @@ const SurpriseEvent = () => {
               href="tel:+918123159377"
               className="text-yellow-300 hover:underline "
             >
-              +91 8123159377
+              8123159377
             </a>          </div>
         </div>
       </div>
