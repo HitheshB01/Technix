@@ -16,14 +16,14 @@ const events = [
     id: "webDesign",
     title: "Web Designing",
     description:
-      "Create magical websites using creative tools like Canva, Figma, Adobe Photoshop, and VSCode.",
+      "Where creativity meets functionality",
     logo: "https://cdn-icons-png.flaticon.com/512/201/201623.png", // Add logo URL
   },
   {
     id: "itQuiz",
     title: "IT Quiz",
     description:
-      "Test your IT knowledge in multiple rounds including MCQs, rapid-fire, and audio-visual challenges.",
+      "Test your brain, Claim your Fame!.",
     logo: "https://cdn-icons-png.flaticon.com/512/201/201623.png", // Add logo URL
   },
   {
