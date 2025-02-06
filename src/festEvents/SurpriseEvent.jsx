@@ -1,3 +1,5 @@
+import pramod from "../coord_pic/pramod.jpeg";
+import smitha from "../coord_pic/Smitha .jpg";
 const SurpriseEvent = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -66,7 +68,7 @@ const SurpriseEvent = () => {
           {/* Event Coordinator 1 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 1's image
+              src={pramod} // Replace with Event Coordinator 1's image
               alt="Event Coordinator 1"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
@@ -83,7 +85,7 @@ const SurpriseEvent = () => {
           {/* Event Coordinator 2 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 2's image
+              src={smitha} // Replace with Event Coordinator 2's image
               alt="Event Coordinator 2"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />

@@ -1,3 +1,5 @@
+import shreya from '../coord_pic/shreya.jpeg';
+import hithesh from '../coord_pic/hithu.jpeg';
 const Coordinator = () => {
     // Coordinators Data
     const coordinators = [
@@ -6,14 +8,14 @@ const Coordinator = () => {
         name: 'Hithesh',
         role: 'Event Coordinator',
         contact: '+919901767545',
-        image: 'https://via.placeholder.com/150', // Replace with actual image URL
+        image: hithesh, // Replace with actual image URL
       },
       {
         id: 2,
         name: 'Shreya',
         role: 'Event Coordinator',
         contact: '+918762635749',
-        image: 'https://via.placeholder.com/150', // Replace with actual image URL
+        image: shreya, // Replace with actual image URL
       },
     ];
   
@@ -21,7 +23,7 @@ const Coordinator = () => {
       <div className="min-h-[60vh]  text-white p-6">
         {/* Page Title */}
         <h1 className="text-4xl font-bold text-yellow-500 font-magic text-center mb-8">
-          Event Coordinators
+          Head Coordinators
         </h1>
   
         {/* Coordinators Grid */}

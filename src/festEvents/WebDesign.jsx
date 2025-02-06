@@ -1,3 +1,4 @@
+import varshini from "../coord_pic/varshini.jpeg";
 const WebDesign = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -98,7 +99,7 @@ const WebDesign = () => {
           {/* Event Coordinator 2 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 2's image
+              src={varshini} // Replace with Event Coordinator 2's image
               alt="Event Coordinator 2"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />

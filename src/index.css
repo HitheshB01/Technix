@@ -10,10 +10,65 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-.font-futuristic {
+/* .font-futuristic { */
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Exo 2', sans-serif; */
-  font-family: 'Rajdhani', sans-serif;
+  /* font-family: 'Rajdhani', sans-serif; */
 
 
+/* } */
+
+/* @font-face {
+  font-family: 'Harry P';
+  src: url('/fonts/HarryP.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lumos';
+  src: url('/fonts/Lumos.ttf') format('truetype');
+} */
+
+/* 
+@font-face {
+  font-family: "HarryP";
+  src: url("/fonts/HARRYP__.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Lumos";
+  src: url("/fonts/LUMOS.TTF") format("truetype");
+}
+
+.font-harryp {
+  font-family: "HarryP", sans-serif;
+}
+
+.font-lumos {
+  font-family: "Lumos", serif;
+} */
+
+
+@font-face {
+  font-family: "HarryP";
+  src: url("../public/fonts/HarryP.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Lumos";
+  src: url("../public/fonts/Lomus.TTF") format("truetype");
+}
+
+.font-harryp {
+  font-family: "HarryP", sans-serif;
+}
+
+.font-lumos {
+  font-family: "Lumos", serif;
+}
+
+
+.bg-parchment {
+  background-image: url('../src/images/parchment.jpg');
+  background-size: cover;
+  background-position: center;
 }

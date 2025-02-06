@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      harry: ['Harry P', 'sans-serif'],
+      lumos: ['Lumos', 'sans-serif'],
+    },},
   },
   plugins: [],
 }

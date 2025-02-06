@@ -1,5 +1,7 @@
 
-import img from '../images/Picsart_25-02-06_11-43-23-500.png'
+import img from '../images/manager.png'
+import keith from '../coord_pic/keith.jpeg'
+import abhishek from '../coord_pic/sunil.jpeg'
 const ITManager = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -71,7 +73,7 @@ const ITManager = () => {
           {/* Event Coordinator 1 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 1's image
+              src={keith} // Replace with Event Coordinator 1's image
               alt="Event Coordinator 1"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
@@ -88,7 +90,7 @@ const ITManager = () => {
           {/* Event Coordinator 2 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 2's image
+              src={abhishek} // Replace with Event Coordinator 2's image
               alt="Event Coordinator 2"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />

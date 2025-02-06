@@ -1,3 +1,5 @@
+import vasu from "../coord_pic/vasudha.jpeg";
+import yogi from "../coord_pic/YSCphoto.JPG";
 const TreasureHunt = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6">
@@ -77,7 +79,7 @@ const TreasureHunt = () => {
           {/* Event Coordinator 1 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 1's image
+              src={vasu} // Replace with Event Coordinator 1's image
               alt="Event Coordinator 1"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
@@ -94,7 +96,7 @@ const TreasureHunt = () => {
           {/* Event Coordinator 2 */}
           <div className="flex flex-col items-center">
             <img
-              src="https://via.placeholder.com/150" // Replace with Event Coordinator 2's image
+              src={yogi} // Replace with Event Coordinator 2's image
               alt="Event Coordinator 2"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
