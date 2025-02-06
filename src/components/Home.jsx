@@ -15,19 +15,19 @@ const Homepage = () => {
           {/* Content */}
           <div className="relative text-center px-4">
             {/* Title */}
-            <h1 className="text-4xl md:text-6xl font-bold text-blue-500 font-futuristic mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold text-yellow-500 font-futuristic mb-4">
               Welcome to TECHNIX 6.0
             </h1>
   
             {/* Subtitle */}
-            <p className="text-lg md:text-xl text-blue-300 mb-8">
+            <p className="text-lg md:text-xl text-yellow-300 mb-8">
               Where Innovation Meets the Future
             </p>
   
             {/* Call-to-Action Button */}
             <a
               href="/register"
-              className="bg-blue-500 text-gray-900 px-4 py-2 md:px-6 md:py-3 rounded-lg font-bold hover:bg-blue-400 transition duration-300"
+              className="bg-yellow-500 text-gray-900 px-4 py-2 md:px-6 md:py-3 rounded-lg font-bold hover:bg-yellow-400 transition duration-300"
             >
               Register Now
             </a>
