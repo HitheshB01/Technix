@@ -25,32 +25,28 @@ const BGMI = () => {
           <li>Per team registration fee is ₹300.</li>
           <li>
             Any foul play or cheating, including aim bot, game client
-            modifications, exploiting bugs or glitches, will result in
-            immediate disqualification of the team.
+            modifications, exploiting bugs or glitches, will result in immediate
+            disqualification of the team.
           </li>
           <li>
-            Only iOS and Android mobile phones are allowed. Emulators and
-            Tabs are strictly prohibited.
+            Only iOS and Android mobile phones are allowed. Emulators and Tabs
+            are strictly prohibited.
           </li>
           <li>
-            Participants must be ready with their required accessories
-            before joining the game.
+            Participants must be ready with their required accessories before
+            joining the game.
           </li>
           <li>No Wi-Fi will be provided.</li>
-          <li>
-            Participants must bring their own chargers and headphones.
-          </li>
+          <li>Participants must bring their own chargers and headphones.</li>
           <li>
             Remote play is not allowed. All participants must be physically
             present.
           </li>
           <li>
-            No arguments with the coordinators. The coordinator’s decision
-            is final.
+            No arguments with the coordinators. The coordinator’s decision is
+            final.
           </li>
-          <li>
-            Further instructions will be provided on the event day.
-          </li>
+          <li>Further instructions will be provided on the event day.</li>
         </ul>
       </div>
 
@@ -76,7 +72,7 @@ const BGMI = () => {
             className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
           />
           <h3 className="text-xl font-bold text-yellow-500 font-magic">
-            Prof. Jane Smith
+          Mr. Dwarakanth G V
           </h3>
           <p className="text-yellow-300">Faculty Coordinator</p>
         </div>
@@ -96,9 +92,14 @@ const BGMI = () => {
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
             <h3 className="text-xl font-bold text-yellow-500 font-magic">
-              John Doe
+              Santosh G
             </h3>
-            <p className="text-yellow-300">+91 12345 67890</p>
+            <a
+              href="tel:+918660510372"
+              className="text-yellow-300 hover:underline"
+            >
+              +91 8660510372
+            </a>{" "}
           </div>
 
           {/* Event Coordinator 2 */}
@@ -109,9 +110,14 @@ const BGMI = () => {
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
             <h3 className="text-xl font-bold text-yellow-500 font-magic">
-              Jane Smith
+              Kiran
             </h3>
-            <p className="text-yellow-300">+91 98765 43210</p>
+            <a
+              href="tel:+918618072614"
+              className="text-yellow-300 hover:underline "
+            >
+              +91 8618072614
+            </a>{" "}
           </div>
         </div>
       </div>

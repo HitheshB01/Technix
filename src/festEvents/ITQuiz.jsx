@@ -53,20 +53,65 @@ const ITQuiz = () => {
           </a>
         </div>
   
-        {/* Event Coordinators Section */}
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">
-            Event Coordinators
-          </h2>
-          <ul className="text-yellow-300 space-y-2">
-            <li>
-              <strong>John Doe</strong> - +91 12345 67890
-            </li>
-            <li>
-              <strong>Jane Smith</strong> - +91 98765 43210
-            </li>
-          </ul>
+        {/* Faculty Coordinator Section */}
+      <div className=" p-6 rounded-lg shadow-lg mb-6">
+        <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">
+          Faculty Coordinator
+        </h2>
+        <div className="flex flex-col items-center">
+          <img
+            src="https://via.placeholder.com/150" // Replace with Faculty Coordinator's image
+            alt="Faculty Coordinator"
+            className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
+          />
+          <h3 className="text-xl font-bold text-yellow-500 font-magic">
+          Mr. Dwarakanth G V
+          </h3>
+          <p className="text-yellow-300">Faculty Coordinator</p>
         </div>
+      </div>
+
+      {/* Event Coordinators Section */}
+      <div className=" p-6 rounded-lg shadow-lg">
+        <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">
+          Event Coordinators
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
+          {/* Event Coordinator 1 */}
+          <div className="flex flex-col items-center">
+            <img
+              src="https://via.placeholder.com/150" // Replace with Event Coordinator 1's image
+              alt="Event Coordinator 1"
+              className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
+            />
+            <h3 className="text-xl font-bold text-yellow-500 font-magic">
+              Nishitha
+            </h3>
+            <a
+              href="tel:+919880231462"
+              className="text-yellow-300 hover:underline "
+            >
+              +91 9880231462
+            </a>          </div>
+
+          {/* Event Coordinator 2 */}
+          <div className="flex flex-col items-center">
+            <img
+              src="https://via.placeholder.com/150" // Replace with Event Coordinator 2's image
+              alt="Event Coordinator 2"
+              className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
+            />
+            <h3 className="text-xl font-bold text-yellow-500 font-magic">
+              Nikhila
+            </h3>
+            <a
+              href="tel:+918904291356"
+              className="text-yellow-300 hover:underline "
+            >
+              +91 8904291356
+            </a>          </div>
+        </div>
+      </div>
       </div>
     );
   };

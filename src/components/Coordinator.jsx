@@ -3,16 +3,16 @@ const Coordinator = () => {
     const coordinators = [
       {
         id: 1,
-        name: 'John Doe',
+        name: 'Hithesh',
         role: 'Event Coordinator',
-        contact: '+911234567890',
+        contact: '+919901767545',
         image: 'https://via.placeholder.com/150', // Replace with actual image URL
       },
       {
         id: 2,
-        name: 'Jane Smith',
+        name: 'Shreya',
         role: 'Event Coordinator',
-        contact: '+919876543210',
+        contact: '+918762635749',
         image: 'https://via.placeholder.com/150', // Replace with actual image URL
       },
     ];
@@ -54,7 +54,7 @@ const Coordinator = () => {
               <div className="text-center">
                 <a
                   href={`tel:${coordinator.contact}`} // Directly dial the contact number
-                  className="text-sm text-blue-400 hover:text-blue-300"
+                  className="text-sm text-blue-400 hover:underline"
                 >
                   {coordinator.contact}
                 </a>

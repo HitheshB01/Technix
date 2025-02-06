@@ -3,28 +3,28 @@ const AdvisoryPanel = () => {
   const panelMembers = [
     {
       id: 1,
-      name: 'Dr. John Doe',
+      name: 'Dr. M Sridevi',
       role: 'HOD, Department of Computer Science',
       image: 'https://via.placeholder.com/150', // Replace with actual image URL
     },
     {
       id: 2,
-      name: 'Prof. Jane Smith',
+      name: 'Dr. T Shivakumara',
       role: 'Faculty Coordinator',
       image: 'https://via.placeholder.com/150', // Replace with actual image URL
     },
-    {
-      id: 3,
-      name: 'Dr. Alice Johnson',
-      role: 'Faculty Coordinator',
-      image: 'https://via.placeholder.com/150', // Replace with actual image URL
-    },
-    {
-      id: 4,
-      name: 'Prof. Robert Brown',
-      role: 'Faculty Coordinator',
-      image: 'https://via.placeholder.com/150', // Replace with actual image URL
-    },
+    // {
+    //   id: 3,
+    //   name: 'Dr. Alice Johnson',
+    //   role: 'Faculty Coordinator',
+    //   image: 'https://via.placeholder.com/150', // Replace with actual image URL
+    // },
+    // {
+    //   id: 4,
+    //   name: 'Prof. Robert Brown',
+    //   role: 'Faculty Coordinator',
+    //   image: 'https://via.placeholder.com/150', // Replace with actual image URL
+    // },
   ];
 
   return (
