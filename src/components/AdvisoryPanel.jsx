@@ -1,3 +1,4 @@
+import shiv from '../coord_pic/shiv.jpeg';
 const AdvisoryPanel = () => {
   // Advisory Panel Members Data
   const panelMembers = [
@@ -11,7 +12,7 @@ const AdvisoryPanel = () => {
       id: 2,
       name: 'Dr. T Shivakumara',
       role: 'Faculty Coordinator',
-      image: 'https://via.placeholder.com/150', // Replace with actual image URL
+      image: shiv, // Replace with actual image URL
     },
     // {
     //   id: 3,
