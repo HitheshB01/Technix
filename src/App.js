@@ -20,12 +20,12 @@ const App = () => {
         {/* BGMI Page (Replaces EventSection) */}
         <Route path="/events/bgmi" element={<Container content={<BGMI />} />} />
         <Route path="/events/coding" element={<Container content={<Coding/>} />} />
-        <Route path="/events/itQuiz" element={<Container content={<Photo/>} />} />
+        <Route path="/events/itQuiz" element={<Container content={<ITQuiz/>} />} />
         <Route path="/events/webDesign" element={<Container content={<WebDesign/>} />} />
         <Route path="/events/treasureHunt" element={<Container content={<TreasureHunt/>} />} />
         <Route path="/events/itManager" element={<Container content={<ITManager/>} />} />
         <Route path="/events/surpriseEvent" element={<Container content={<SurpriseEvent/>} />} />
-        <Route path="/events/photography" element={<Container content={<ITQuiz/>} />} />
+        <Route path="/events/photography" element={<Container content={<Photo/>} />} />
 
 
 
