@@ -8,6 +8,7 @@ import WebDesign from './festEvents/WebDesign';
 import TreasureHunt from './festEvents/TreasureHunt';
 import ITManager from './festEvents/ITManager';
 import SurpriseEvent from './festEvents/SurpriseEvent';
+import Photo from './festEvents/Photography'
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         {/* BGMI Page (Replaces EventSection) */}
         <Route path="/events/bgmi" element={<Container content={<BGMI />} />} />
         <Route path="/events/coding" element={<Container content={<Coding/>} />} />
-        <Route path="/events/itQuiz" element={<Container content={<ITQuiz/>} />} />
+        <Route path="/events/itQuiz" element={<Container content={<Photo/>} />} />
         <Route path="/events/webDesign" element={<Container content={<WebDesign/>} />} />
         <Route path="/events/treasureHunt" element={<Container content={<TreasureHunt/>} />} />
         <Route path="/events/itManager" element={<Container content={<ITManager/>} />} />
