@@ -1,4 +1,5 @@
 import shiv from '../coord_pic/shiv.jpeg';
+import hod from '../coord_pic/hod.jpeg';
 const AdvisoryPanel = () => {
   // Advisory Panel Members Data
   const panelMembers = [
@@ -6,7 +7,7 @@ const AdvisoryPanel = () => {
       id: 1,
       name: 'Dr. M Sridevi',
       role: 'HOD, Department of Computer Science',
-      image: 'https://via.placeholder.com/150', // Replace with actual image URL
+      image: hod, // Replace with actual image URL
     },
     {
       id: 2,
