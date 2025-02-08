@@ -101,7 +101,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 p-4 shadow-lg border-b-2 border-blue-500">
+    <nav className="bg-gray-900 p-4 shadow-lg border-b-2 border-blue-500 h">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo and Title */}
         <div className="flex items-center">
