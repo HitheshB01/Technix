@@ -10,11 +10,20 @@ const Photo = () => {
 
     logo: logo, // Replace with your logo path
     tagline: 'Create the moment, Create the magic',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Capture moments as if crafting moving portraits for the wizarding world! Only those with a keen eye and a touch of magic can frame the essence of Technix 6.0 in a single shot.',
     rules: [
-      'Teams of 3-5 members.',
-      'No external help allowed.',
-      'Time limit: 2 hours.',
+      
+        'Only mobile devices are allowed (any model).',
+        'All captures (photos/videos) must be taken within the campus.',
+        'Time Limits:',
+        '  - Photography: 2 hours per round, total 4 hours.',
+        '  - Videography: 4 hours (including capturing and editing).',
+        'Use of old photos/videos or internet-downloaded content will result in disqualification.',
+        'Participants must provide before and after shots for photos.',
+        'Capture date and time will be verified in the device settings.',
+        'The quizmaster’s decision is final, and no disputes will be entertained.'
+     
+      
     ],
     fees: '₹150 per team',
     date: 'October 31, 2023',
@@ -27,12 +36,12 @@ const Photo = () => {
     },
     eventCoordinators: [
       {
-        name: 'Harry Potter',
+        name: 'Siddhanth',
         image: '/assets/event-coordinator1.jpg', // Replace with your image path
-        contact: '+91 98765 43210',
+        contact: '+91 8660817826',
       },
       {
-        name: 'Hermione Granger',
+        name: 'tejaswini',
         image: '/assets/event-coordinator2.jpg', // Replace with your image path
         contact: '+91 87654 32109',
       },

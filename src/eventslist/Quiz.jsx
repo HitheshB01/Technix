@@ -9,7 +9,7 @@ const Quiz = () => {
 
     logo: logo, // Replace with your logo path
     tagline: 'Test your brain , Calim your fame !',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Only the wisest witches and wizards shall triumph in this test of magical knowledge and logic. With each question, a new spell is cast—will you conjure the right answers or be lost in the fog of confusion?',
     rules: [
       'IT Quiz.',
       'Members per team: 2.',

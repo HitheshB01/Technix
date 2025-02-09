@@ -10,7 +10,7 @@ const Coding = () => {
 
     logo:logo, // Replace with your logo path
     tagline: 'Code, Create, Captivate',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Like the Phoenix rising from the ashes, only the most resilient coders will endure the trials ahead. This challenge will test your logic, speed, and spellbinding problem-solving skills—will your code soar or crumble into embers?',
     rules: [
       'Members per team: 1.',
       'Event consists of 3 rounds.',

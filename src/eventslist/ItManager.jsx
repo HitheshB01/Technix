@@ -9,7 +9,7 @@ const ItManager = () => {
 
     logo: logo, // Replace with your logo path
     tagline: ' Only the best can lead the rest.',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Just as the Triwizard champions braved perilous tasks, this event will test your leadership, strategy, and decision-making. Only the sharpest minds can conquer the gauntlet and prove themselves the true master of the digital realm!',
     rules: [
       'Members per team: 1.',
       'Event consists of multiple rounds.',

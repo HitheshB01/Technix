@@ -9,7 +9,7 @@ const Bgmi = () => {
     subtitle: 'BGMI',
     logo: logo, // Replace with your logo path
     tagline: 'Gear up, Log in, Take down',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Mount your digital broomsticks and enter the battlefield where only the fiercest warriors shall soar to victory. With wands replaced by weapons, strategy and courage will determine the true champion of this enchanted showdown!',
     rules: [
       'Members per team: 4.',
       'Event consists of 2 rounds.',

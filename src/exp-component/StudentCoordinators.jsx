@@ -1,19 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import hit from '../coord_pic/hithu.jpeg'
+import shreya from '../coord_pic/shreya.jpeg'
 
 const StudentCoordinators = () => {
   const coordinators = [
     {
-      name: 'Harry Potter',
+      name: 'Hithesh ',
       designation: 'Head Coordinator',
       house: 'Gryffindor',
-      image: '/images/harry.jpg', // Replace with your image path
+      image: hit, // Replace with your image path
     },
     {
       name: 'Hermione Granger',
       designation: 'Deputy Coordinator',
       house: 'Ravenclaw',
-      image: '/images/hermione.jpg', // Replace with your image path
+      image: shreya, // Replace with your image path
     },
   ];
 

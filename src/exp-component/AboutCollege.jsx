@@ -1,17 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import clg from '../logos/clg.jpeg';
 
 const AboutCollege = () => {
   return (
     <div className="min-h-screen bg-parchment bg-cover bg-center text-dark-brown">
       {/* Floating Candles */}
-      <motion.img
+      {/* <motion.img
         src="/icons/candle.png"
         alt="Candle"
         className="w-8 h-8 absolute top-1/4 left-1/4"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-      />
+      /> */}
 
       {/* Hero Section
       <section className="relative h-screen flex flex-col justify-center items-center text-center">
@@ -36,7 +37,7 @@ const AboutCollege = () => {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
           {/* College Picture */}
           <motion.img
-            src="/images/bmsit-college.jpg" // Replace with your college image path
+            src={clg} // Replace with your college image path
             alt="BMSIT College"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
             whileHover={{ scale: 1.05 }}
@@ -46,14 +47,11 @@ const AboutCollege = () => {
           {/* College Description */}
           <div className="w-full md:w-1/2">
             <p className="text-lg mb-4">
-              BMS Institute of Technology (BMSIT) is a premier engineering college located in Bangalore, India. Established in 2002, BMSIT has been a beacon of excellence in technical education, fostering innovation and research.
-            </p>
+            BMS Institutions trace their history back to 1946 when Late Sri B.M. Sreenivasaiah, a visionary philanthropist, founded BMS College of Engineering, the first private engineering college in India. Recognized for his contributions to education, he was honored with the title ‘Dharmaprakasha Rajakaryaprasakta’ by the Maharaja of Mysore.            </p>
             <p className="text-lg mb-4">
-              With state-of-the-art infrastructure, experienced faculty, and a vibrant student community, BMSIT is committed to nurturing future leaders in the field of technology.
-            </p>
+            His son, Sri B.S. Narayan, further expanded his legacy by transforming BMS College of Engineering into a top-tier institution. He also established the BMS Educational Trust (BMSET), founding institutions like BMS College of Law, BMS College for Women, and BMS Evening College of Engineering. Additionally, he initiated global collaborations, including programs with the Melton Foundation.            </p>
             <p className="text-lg">
-              The college is affiliated with Visvesvaraya Technological University (VTU) and is accredited by the National Board of Accreditation (NBA).
-            </p>
+            Today, BMS Institutions are managed by The Council of Trustees, appointed by Dr. B.S. Ragini Narayan, wife of Late Sri B.S. Narayan, who serves as the Chairperson, Donor Trustee, and Member Secretary of BMSET.            </p>
           </div>
         </div>
       </section>

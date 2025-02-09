@@ -1,29 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
+import sri from '../coord_pic/hod.jpeg'
+import shiv from '../coord_pic/shiv.jpeg'
 
 // Faculty Data
 const facultyMembers = [
   {
-    name: "Dr. Albus Dumbledore",
-    designation: "Head of Department",
-    role: "Overall Advisory Head",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    name: "Dr. M Sridevi",
+    role: "Head of Department",
+    image: sri, // Replace with actual image URL
     house: "gryffindor", // Optional: Add house theme
-  },
+  }, 
   {
-    name: "Prof. Minerva McGonagall",
-    designation: "Professor",
-    role: "Event Coordination",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    name: "Prof. Shivakumara T",
+    role: "Fest Faculty coordinator",
+    image: shiv, // Replace with actual image URL
     house: "gryffindor",
   },
-  {
-    name: "Prof. Severus Snape",
-    designation: "Professor",
-    role: "Technical Advisor",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
-    house: "slytherin",
-  },
+  
 ];
 
 // Faculty Card Component
@@ -43,7 +37,7 @@ const FacultyCard = ({ name, designation, role, image, house }) => {
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-cover hover:scale-110 transition-transform"
+          className="w-full h-full  object-cover hover:scale-110 transition-transform"
         />
       </motion.div>
 

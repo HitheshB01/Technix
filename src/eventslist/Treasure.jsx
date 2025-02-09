@@ -9,7 +9,7 @@ const Treasure = () => {
     subtitle: 'Treasure Hunt',
     logo: logo, // Replace with your logo path
     tagline: ' Follow the clues, find the fortune',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Just like the Seeker chasing the elusive Snitch, you must follow the clues, decode the riddles, and navigate through enchanted paths. Only the most cunning and swift will claim victory—will you catch the Snitch before time runs out?',
     rules: [
       'Treasure Hunt.',
       'Members per team: 5.',

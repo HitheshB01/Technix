@@ -9,7 +9,7 @@ const Surprise = () => {
     logo: logo,
     tagline: 'The best surprise is Yet to come',
     description:
-      'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+      'Trapped within the enchanted walls of Azkaban, only the cleverest and most daring witches and wizards can escape. Every choice you make weaves your fate—one wrong move, and you may be lost in the depths forever!',
     rules: [
       'Surprise Event.',
       'Members per team: 4.',

@@ -11,7 +11,7 @@ const Web = () => {
     subtitle: 'Web Designing',
     // logo: '/assets/event-logo.png', // Replace with your logo path
     tagline: 'Where creativity meets functionality',
-    description: 'As the Triwizard Tournament challenged only the boldest wizards, this event will test your problem-solving and teamwork skills.',
+    description: 'Weave your magic into the digital realm as you conjure spellbinding designs and bewitching interfaces. Only those with the precision of a potions master and the creativity of a wandmaker shall triumph in this enchanted test of web sorcery!',
     rules: [
       'Web Designing.',
       'Members per team: 2.',
