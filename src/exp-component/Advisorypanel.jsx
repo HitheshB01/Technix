@@ -32,7 +32,7 @@ const FacultyCard = ({ name, designation, role, image, house }) => {
       {/* Floating Portrait */}
       <motion.div
         whileHover={{ scale: 1.05 }}
-        className="w-48 h-36 mx-auto mb-4 overflow-hidden border-2 border-golden rounded-lg"
+        className="w-48 h-52 mx-auto mb-4 overflow-hidden border-2 border-golden rounded-lg"
       >
         <img
           src={image}
