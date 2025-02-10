@@ -20,6 +20,7 @@ import StudentCoordinators from "./StudentCoordinators.jsx";
 import Footer from "./Footer.jsx";
 import RulesPage from "./RulesPage.jsx";
 import SponsorsPage from "./SponsersPage.jsx";
+import EventSchedule from "./EventSchedule.jsx";
 
 // Event ID to Component Mapping
 const eventRoutes = [
@@ -48,6 +49,7 @@ const Container = () => {
               <AboutTechnix />
               <RulesPage/>
               <EventSection />
+              <EventSchedule/>
               <AdvisoryPanel/>
               <StudentCoordinators/>
               <SponsorsPage/>

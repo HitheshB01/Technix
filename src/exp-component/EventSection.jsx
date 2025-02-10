@@ -90,7 +90,7 @@ const events = [
   { id: "bgmi", title: 'Quidditch Of Consoles', color: 'bg-green-900', symbol: bgmi },
   { id: "treasureHunt", title: 'The Golden Snitch', color: 'bg-blue-900', symbol: TreasureHunt },
   { id: "surpriseEvent", title: 'Azkabans Breakout', color: 'bg-blue-900', symbol: surprise },
-  { id: "photography", title: 'The Snaps Of Secrets', color: 'bg-yellow-900', symbol: photo },
+  { id: "photography", title: 'The Daily Prophet', color: 'bg-yellow-900', symbol: photo },
   { id: "itManager", title: 'Quad-Wizard Gauntlet', color: 'bg-yellow-900', symbol: ITManager },
 ];
 

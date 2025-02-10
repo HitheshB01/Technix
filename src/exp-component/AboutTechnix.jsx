@@ -62,7 +62,7 @@ const AboutTechnix = () => {
       {
         name: 'Ravenclaw',
         description: 'Wisdom and wit guide Ravenclaws in their pursuits.',
-        events: ['Azkaban Breakout', 'Snaps Of Secrets'],
+        events: ['Azkaban Breakout', 'The Daily Prophet'],
       },
       {
         name: 'Hufflepuff',
