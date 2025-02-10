@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import logo from '../logos/TreasureHunt.png';
 import yogi from '../coord_pic/YSCphoto.JPG';
 import vasudha from '../coord_pic/vasudha.jpeg';
+import gvd from '../coord_pic/gvd.png';
+
 
 const Treasure = () => {
   // Event Data
@@ -29,7 +31,7 @@ const Treasure = () => {
     venue: 'Great Hall, Hogwarts',
     facultyCoordinator: {
       name: 'Prof. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg', // Replace with your image path
+      image: gvd, // Replace with your image path
       
     },
     eventCoordinators: [

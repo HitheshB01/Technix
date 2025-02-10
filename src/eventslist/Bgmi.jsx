@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import logo from '../logos/Bgmi.png';
 import santu from '../coord_pic/santu.jpeg';
 import kiran from '../coord_pic/kiran.jpeg';
+import gvd from '../coord_pic/gvd.png';
 
 const Bgmi = () => {
   // Event Data
@@ -28,7 +29,7 @@ const Bgmi = () => {
     fees: '₹350 per team',
     facultyCoordinator: {
       name: 'Mr. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg', // Replace with your image path
+      image: gvd, // Replace with your image path
     },
     eventCoordinators: [
       {

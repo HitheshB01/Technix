@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import logo from '../logos/quiz.png';
 import ananya from '../coord_pic/ananya.jpeg';
 import nikhila from '../coord_pic/nikhila.jpeg';
+import gvd from '../coord_pic/gvd.png';
+
 const Quiz = () => {
   // Event Data
   const eventData = {
@@ -28,7 +30,7 @@ const Quiz = () => {
     venue: 'Great Hall, Hogwarts',
     facultyCoordinator: {
       name: 'Prof. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg', // Replace with your image path
+      image: gvd, // Replace with your image path
       
     },
     eventCoordinators: [

@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import logo from '../logos/surprise.png';
 import pramod from '../coord_pic/pramod.jpeg';
 import smitha from '../coord_pic/Smitha .jpg';
+import gvd from '../coord_pic/gvd.png';
+
 
 const Surprise = () => {
   const eventData = {
@@ -26,7 +28,7 @@ const Surprise = () => {
     venue: 'Great Hall, Hogwarts',
     facultyCoordinator: {
       name: 'Prof. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg',
+      image: gvd,
     },
     eventCoordinators: [
       {

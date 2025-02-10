@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import logo from '../logos/ITManager.png';
 import keith from '../coord_pic/keith.jpeg';
 import abhishek from '../coord_pic/sunil.jpeg';
+import gvd from '../coord_pic/gvd.png';
+
 const ItManager = () => {
   // Event Data
   const eventData = {
@@ -25,7 +27,7 @@ const ItManager = () => {
     venue: 'Great Hall, Hogwarts',
     facultyCoordinator: {
       name: 'Mr. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg', // Replace with your image path
+      image:gvd, // Replace with your image path
     },
     eventCoordinators: [
       {

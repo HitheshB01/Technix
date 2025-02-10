@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/coding.png';
-
+import nag from '../coord_pic/nag.jpg';
+import gvd from '../coord_pic/gvd.png';
 const Coding = () => {
   // Event Data
   const eventData = {
@@ -27,13 +28,13 @@ const Coding = () => {
     venue: 'Great Hall, Hogwarts',
     facultyCoordinator: {
       name: 'Mr. Dwarakanath G V',
-      image: '/assets/faculty-coordinator.jpg', // Replace with your image path
+      image: gvd, // Replace with your image path
       contact: 'minerva.mcg@hogwarts.edu',
     },
     eventCoordinators: [
       {
         name: 'Nagesh',
-        image: '/assets/event-coordinator1.jpg', // Replace with your image path
+        image: nag, // Replace with your image path
         contact: '+91 74831 58421',
       },
       {

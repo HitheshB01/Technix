@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/photo.png';
 import sid from '../coord_pic/sid.jpeg';
+import gvd from '../coord_pic/gvd.png';
+
 
 const Photo = () => {
   const eventData = {
@@ -22,9 +24,8 @@ const Photo = () => {
     ],
     fees: '₹150 per team',
     facultyCoordinator: {
-      name: 'Prof. Minerva McGonagall',
-      image: '/assets/faculty-coordinator.jpg',
-      contact: 'minerva.mcg@hogwarts.edu',
+      name:  'Mr. Dwarakanath G V',
+      image: gvd,
     },
     eventCoordinators: [
       {
