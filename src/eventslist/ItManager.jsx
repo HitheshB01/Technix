@@ -159,7 +159,7 @@ const ItManager = () => {
           className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp glow-pulse"
         >
        <motion.a
-       href="https://docs.google.com/forms/d/e/1FAIpQLSf3g3hseTsMreeMGutbb3ediK7EgOhYIH-m6DSTS4EDEO0iQA/viewform?usp=dialog" // Update with actual registration link
+       href="https://docs.google.com/forms/d/e/1FAIpQLSdJy67KTroLycx7_EAIi1Vecag48CRwZRijCp0HWxkM7p_nFw/viewform?usp=dialog" // Update with actual registration link
       
       >
         <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
