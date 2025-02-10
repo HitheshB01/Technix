@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/quiz.png';
+import ananya from '../coord_pic/ananya.jpeg';
+import nikhila from '../coord_pic/nikhila.jpeg';
 const Quiz = () => {
   // Event Data
   const eventData = {
@@ -32,12 +34,12 @@ const Quiz = () => {
     eventCoordinators: [
       {
         name: 'Ananya',
-        image: '/assets/event-coordinator1.jpg', // Replace with your image path
+        image: ananya, // Replace with your image path
         contact: '+91 9880231462',
       },
       {
         name: 'Nikhila',
-        image: '/assets/event-coordinator2.jpg', // Replace with your image path
+        image: nikhila, // Replace with your image path
         contact: '+91 8904291356',
       },
     ],
@@ -91,7 +93,7 @@ const Quiz = () => {
         </motion.p>
 
         {/* Rules */}
-        <h3 className="text-2xl font-harryp text-golden mb-4">Rules</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-4">Rules</h3>
         <ul className="list-disc list-inside text-dark-brown">
           {eventData.rules.map((rule, index) => (
             <li key={index} className="mb-2">
@@ -101,7 +103,7 @@ const Quiz = () => {
         </ul>
 
         {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-golden mt-6 mb-4">Registration Fees</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
         <p className="text-dark-brown">{eventData.fees}</p>
       </motion.div>
 
@@ -112,7 +114,7 @@ const Quiz = () => {
         transition={{ duration: 0.5 }}
         className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
       >
-        <h3 className="text-2xl font-harryp text-golden mb-6">Coordinators</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-6">Coordinators</h3>
 
         {/* Faculty Coordinator */}
         <div className="flex items-center space-x-4 mb-6">
@@ -122,7 +124,7 @@ const Quiz = () => {
             className="w-16 h-16 rounded-full"
           />
           <div>
-            <h4 className="text-xl font-harryp text-golden">{eventData.facultyCoordinator.name}</h4>
+            <h4 className="text-xl font-harryp text-amber-700">{eventData.facultyCoordinator.name}</h4>
             <p className="text-dark-brown">Faculty Coordinator</p>
             <p className="text-dark-brown">{eventData.facultyCoordinator.contact}</p>
           </div>
@@ -138,7 +140,7 @@ const Quiz = () => {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <h4 className="text-xl font-harryp text-golden">{coordinator.name}</h4>
+                <h4 className="text-xl font-harryp text-amber-700">{coordinator.name}</h4>
                 <p className="text-dark-brown">Event Coordinator</p>
                 <p className="text-dark-brown">{coordinator.contact}</p>
               </div>
@@ -149,25 +151,23 @@ const Quiz = () => {
 
       {/* Registration Button */}
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-center my-8"
-      >
-        <motion.button
-          whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
-          className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp glow-pulse"
-        >
-          <motion.a
-                 href="https://docs.google.com/forms/d/e/1FAIpQLSfbVAqw2QJ40Lpb_l5JOBK7BWZgxoY2Of1wxapoLFcr69oZWw/viewform?usp=dialog" // Update with actual registration link
-                 whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
-                 className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
-                >
-                  <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
-                             Enroll Now 
-                  </motion.a>
-        </motion.button>
-      </motion.div>
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  className="flex justify-center my-8"
+>
+  <motion.a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfbVAqw2QJ40Lpb_l5JOBK7BWZgxoY2Of1wxapoLFcr69oZWw/viewform?usp=dialog"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
+    className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
+  >
+    <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
+    Enroll Now
+  </motion.a>
+</motion.div>
+
     </div>
   );
 };

@@ -92,7 +92,7 @@ const Coding = () => {
         </motion.p>
 
         {/* Rules */}
-        <h3 className="text-2xl font-harryp text-golden mb-4">Rules</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-4">Rules</h3>
         <ul className="list-disc list-inside text-dark-brown">
           {eventData.rules.map((rule, index) => (
             <li key={index} className="mb-2">
@@ -102,7 +102,7 @@ const Coding = () => {
         </ul>
 
         {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-golden mt-6 mb-4">Registration Fees</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
         <p className="text-dark-brown">{eventData.fees}</p>
       </motion.div>
 
@@ -149,26 +149,24 @@ const Coding = () => {
       </motion.div>
 
       {/* Registration Button */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="flex justify-center my-8"
-      >
-        <motion.button
-          whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
-          className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp glow-pulse"
-        >
-          <motion.a
-                 href="https://docs.google.com/forms/d/e/1FAIpQLScq4u7KTSexAeHn3d9Af2o9IDXxh_-KyvvAFk8j_EsjST23Vw/viewform?usp=dialog" // Update with actual registration link
-                 whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
-                 className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
-                >
-                  <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
-                             Enroll Now 
-                  </motion.a>
-        </motion.button>
-      </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.5 }}
+  className="flex justify-center my-8"
+>
+  <motion.a
+    href="https://docs.google.com/forms/d/e/1FAIpQLScq4u7KTSexAeHn3d9Af2o9IDXxh_-KyvvAFk8j_EsjST23Vw/viewform?usp=dialog"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
+    className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
+  >
+    <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
+    Enroll Now
+  </motion.a>
+</motion.div>
+
     </div>
   );
 };
