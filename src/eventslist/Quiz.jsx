@@ -31,7 +31,7 @@ const Quiz = () => {
     },
     eventCoordinators: [
       {
-        name: 'Nishitha',
+        name: 'Ananya',
         image: '/assets/event-coordinator1.jpg', // Replace with your image path
         contact: '+91 9880231462',
       },

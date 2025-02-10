@@ -28,7 +28,7 @@ const HeroSection = () => {
           transition={{ duration: 1 }}
           className="text-6xl md:text-8xl font-harryp text-golden mb-4"
         >
-          Technix6.0
+          Technix 6.0
         </motion.h1>
 
         {/* Tagline */}

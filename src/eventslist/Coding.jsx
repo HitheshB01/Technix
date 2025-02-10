@@ -113,10 +113,9 @@ const Coding = () => {
         transition={{ duration: 0.5 }}
         className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
       >
-        <h3 className="text-2xl font-harryp text-golden mb-6">Coordinators</h3>
 
   {/* Faculty Coordinator */}
-<h3 className="text-2xl font-bold text-golden mb-4">Faculty Coordinator</h3>
+<h3 className="text-2xl font-bold text-amber-700 mb-4">Faculty Coordinator</h3>
 <div className="flex items-center space-x-4 mb-6">
   <img
     src={eventData.facultyCoordinator.image}
@@ -124,12 +123,12 @@ const Coding = () => {
     className="w-16 h-16 rounded-full"
   />
   <div>
-    <h4 className="text-xl font-harryp text-golden">{eventData.facultyCoordinator.name}</h4>
+    <h4 className="text-xl font-harryp text-amber-700">{eventData.facultyCoordinator.name}</h4>
   </div>
 </div>
 
 {/* Event Coordinators */}
-<h3 className="text-2xl font-bold text-golden mb-4">Event Coordinators</h3>
+<h3 className="text-2xl font-bold text-amber-700 mb-4">Event Coordinators</h3>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
   {eventData.eventCoordinators.map((coordinator, index) => (
     <div key={index} className="flex items-center space-x-4">
@@ -139,7 +138,7 @@ const Coding = () => {
         className="w-16 h-16 rounded-full"
       />
       <div>
-        <h4 className="text-xl font-harryp text-golden">{coordinator.name}</h4>
+        <h4 className="text-xl font-harryp text-amber-700">{coordinator.name}</h4>
         <p className="text-dark-brown">{coordinator.contact}</p>
       </div>
     </div>
@@ -161,7 +160,7 @@ const Coding = () => {
           className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp glow-pulse"
         >
           <motion.a
-                 href="https://docs.google.com/forms/d/e/1FAIpQLSfbVAqw2QJ40Lpb_l5JOBK7BWZgxoY2Of1wxapoLFcr69oZWw/viewform?usp=dialog" // Update with actual registration link
+                 href="https://docs.google.com/forms/d/e/1FAIpQLScq4u7KTSexAeHn3d9Af2o9IDXxh_-KyvvAFk8j_EsjST23Vw/viewform?usp=dialog" // Update with actual registration link
                  whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
                  className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
                 >

@@ -74,7 +74,7 @@ const RulesPage = () => {
             transition={{ duration: 0.5 }}
             className="mb-8"
           >
-            <h2 className="text-2xl font-harryp text-golden mb-4">{section.title}</h2>
+            <h2 className="text-2xl font-harryp text-amber-600 mb-4">{section.title}</h2>
             <ul className="list-disc list-inside text-black">
               {section.items.map((item, index) => (
                 <li key={index} className="mb-2 text-lg">{item}</li>

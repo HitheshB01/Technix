@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/TreasureHunt.png';
+import yogi from '../coord_pic/YSCphoto.JPG';
+import vasudha from '../coord_pic/vasudha.jpeg';
 
 const Treasure = () => {
   // Event Data
@@ -33,12 +35,12 @@ const Treasure = () => {
     eventCoordinators: [
       {
         name: 'Vasudha ',
-        image: '/assets/event-coordinator1.jpg', // Replace with your image path
+        image: vasudha, // Replace with your image path
         contact: '+91 6360617993',
       },
       {
         name: 'Yogin',
-        image: '/assets/event-coordinator2.jpg', // Replace with your image path
+        image:yogi, // Replace with your image path
         contact: '+91 7411775033',
       },
     ],
@@ -92,7 +94,7 @@ const Treasure = () => {
         </motion.p>
 
         {/* Rules */}
-        <h3 className="text-2xl font-harryp text-golden mb-4">Rules</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-4">Rules</h3>
         <ul className="list-disc list-inside text-dark-brown">
           {eventData.rules.map((rule, index) => (
             <li key={index} className="mb-2">
@@ -102,7 +104,7 @@ const Treasure = () => {
         </ul>
 
         {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-golden mt-6 mb-4">Registration Fees</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
         <p className="text-dark-brown">{eventData.fees}</p>
       </motion.div>
 
@@ -113,7 +115,6 @@ const Treasure = () => {
         transition={{ duration: 0.5 }}
         className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
       >
-        <h3 className="text-2xl font-harryp text-golden mb-6">Coordinators</h3>
 
         {/* Faculty Coordinator */}
         <div className="flex items-center space-x-4 mb-6">
@@ -123,7 +124,7 @@ const Treasure = () => {
             className="w-16 h-16 rounded-full"
           />
           <div>
-            <h4 className="text-xl font-harryp text-golden">{eventData.facultyCoordinator.name}</h4>
+            <h4 className="text-xl font-harryp text-amber-700">{eventData.facultyCoordinator.name}</h4>
             <p className="text-dark-brown">Faculty Coordinator</p>
             <p className="text-dark-brown">{eventData.facultyCoordinator.contact}</p>
           </div>
@@ -139,8 +140,7 @@ const Treasure = () => {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <h4 className="text-xl font-harryp text-golden">{coordinator.name}</h4>
-                <p className="text-dark-brown">Event Coordinator</p>
+                <h4 className="text-xl font-harryp text-amber-700">{coordinator.name}</h4>
                 <p className="text-dark-brown">{coordinator.contact}</p>
               </div>
             </div>

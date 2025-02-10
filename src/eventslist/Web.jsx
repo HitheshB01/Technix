@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/web.png';
+import gau from '../coord_pic/gau.jpeg';
+import varshini from '../coord_pic/varshini.jpeg';
 
 
 const Web = () => {
@@ -35,12 +37,12 @@ const Web = () => {
     eventCoordinators: [
       {
         name: 'Gaurang',
-        image: '/assets/event-coordinator1.jpg', // Replace with your image path
+        image: gau, // Replace with your image path
         contact: '+91 7339722954',
       },
       {
         name: 'Varshini',
-        image: '/assets/event-coordinator2.jpg', // Replace with your image path
+        image: varshini, // Replace with your image path
         contact: '+91 9535907059',
       },
     ],
@@ -94,7 +96,7 @@ const Web = () => {
         </motion.p>
 
         {/* Rules */}
-        <h3 className="text-2xl font-harryp text-golden mb-4">Rules</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-4">Rules</h3>
         <ul className="list-disc list-inside text-dark-brown">
           {eventData.rules.map((rule, index) => (
             <li key={index} className="mb-2">
@@ -104,7 +106,7 @@ const Web = () => {
         </ul>
 
         {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-golden mt-6 mb-4">Registration Fees</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
         <p className="text-dark-brown">{eventData.fees}</p>
       </motion.div>
 
@@ -115,7 +117,6 @@ const Web = () => {
         transition={{ duration: 0.5 }}
         className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
       >
-        <h3 className="text-2xl font-harryp text-golden mb-6">Coordinators</h3>
 
         {/* Faculty Coordinator */}
         <div className="flex items-center space-x-4 mb-6">
@@ -125,7 +126,7 @@ const Web = () => {
             className="w-16 h-16 rounded-full"
           />
           <div>
-            <h4 className="text-xl font-harryp text-golden">{eventData.facultyCoordinator.name}</h4>
+            <h4 className="text-xl font-harryp text-amber-700">{eventData.facultyCoordinator.name}</h4>
             <p className="text-dark-brown">Faculty Coordinator</p>
             <p className="text-dark-brown">{eventData.facultyCoordinator.contact}</p>
           </div>
@@ -141,8 +142,7 @@ const Web = () => {
                 className="w-16 h-16 rounded-full"
               />
               <div>
-                <h4 className="text-xl font-harryp text-golden">{coordinator.name}</h4>
-                <p className="text-dark-brown">Event Coordinator</p>
+                <h4 className="text-xl font-harryp text-amber-700">{coordinator.name}</h4>
                 <p className="text-dark-brown">{coordinator.contact}</p>
               </div>
             </div>

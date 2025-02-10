@@ -43,7 +43,7 @@ const SurpriseEvent = () => {
   
          {/* Faculty Coordinator Section */}
       <div className=" p-6 rounded-lg shadow-lg mb-6">
-        <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">
+        <h2 className="text-2xl font-bold text-amber-500 font-magic mb-4">
           Faculty Coordinator
         </h2>
         <div className="flex flex-col items-center">
@@ -52,16 +52,16 @@ const SurpriseEvent = () => {
             alt="Faculty Coordinator"
             className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
           />
-          <h3 className="text-xl font-bold text-yellow-500 font-magic">
+          <h3 className="text-xl font-bold text-amber-500 font-magic">
           Mrs. Nirupama B K
           </h3>
-          <p className="text-yellow-300">Faculty Coordinator</p>
+          <p className="text-amber-500">Faculty Coordinator</p>
         </div>
       </div>
 
       {/* Event Coordinators Section */}
       <div className=" p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">
+        <h2 className="text-2xl font-bold text-amber-500 font-magic mb-4">
           Event Coordinators
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
@@ -72,12 +72,12 @@ const SurpriseEvent = () => {
               alt="Event Coordinator 1"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
-            <h3 className="text-xl font-bold text-yellow-500 font-magic">
+            <h3 className="text-xl font-bold text-amber-500 font-magic">
               Pramod
             </h3>
             <a
               href="tel:+917337784472"
-              className="text-yellow-300 hover:underline "
+              className="text-amber-500 hover:underline "
             >
               7337784472
             </a>          </div>
@@ -89,12 +89,12 @@ const SurpriseEvent = () => {
               alt="Event Coordinator 2"
               className="w-24 h-24 rounded-full object-cover border-4 border-yellow-500 mb-4"
             />
-            <h3 className="text-xl font-bold text-yellow-500 font-magic">
+            <h3 className="text-xl font-bold text-amber-500 font-magic">
               Smitha Raj
             </h3>
             <a
               href="tel:+918123159377"
-              className="text-yellow-300 hover:underline "
+              className="text-amber-500 hover:underline "
             >
               8123159377
             </a>          </div>

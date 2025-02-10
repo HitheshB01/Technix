@@ -6,9 +6,9 @@ import mias from '../logos/mias.png';
 
 const SponsorsPage = () => {
   const sponsors = [
-    { name: 'vivatech', logo: viva, description: 'Major supporter of Technix6.0' },
-    { name: 'Tayi', logo: tayi, description: 'Key contributor to the fest' },
-    { name: 'Mias Cafe', logo: mias, description: 'Valuable partner in magic and tech' },
+    { name: 'VIVATECH', logo: viva, description: 'Major supporter of Technix6.0' },
+    { name: 'TAYI', logo: tayi, description: 'Key contributor to the fest' },
+    { name: 'MIAS CAFE', logo: mias, description: 'Valuable partner in magic and tech' },
   ];
 
   return (
@@ -61,7 +61,7 @@ const SponsorsPage = () => {
                 className="w-32 h-32 mx-auto mb-4 object-contain"
               />
               <h3 className="text-2xl font-bold mb-2">{sponsor.name}</h3>
-              <p className="text-sm">{sponsor.description}</p>
+              <p className="pb-2 text-base">{sponsor.description}</p>
             </motion.div>
           ))}
         </div>

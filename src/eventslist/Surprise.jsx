@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import logo from '../logos/surprise.png';
+import pramod from '../coord_pic/pramod.jpeg';
+import smitha from '../coord_pic/Smitha .jpg';
 
 const Surprise = () => {
   const eventData = {
@@ -29,12 +31,12 @@ const Surprise = () => {
     eventCoordinators: [
       {
         name: 'pramod',
-        image: '/assets/event-coordinator1.jpg',
+        image: pramod,
         contact: '+91 8660187826',
       },
       {
         name: 'smitha raj ',
-        image: '/assets/event-coordinator2.jpg',
+        image: smitha,
         contact: '+91 9008929792',
       },
     ],
@@ -66,15 +68,55 @@ const Surprise = () => {
         transition={{ duration: 0.5 }}
         className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
       >
-        <h3 className="text-2xl font-harryp text-golden mb-4">Rules</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mb-4">Rules</h3>
         <ul className="list-disc list-inside text-dark-brown">
           {eventData.rules.map((rule, index) => (
             <li key={index} className="mb-2">{rule}</li>
           ))}
         </ul>
-        <h3 className="text-2xl font-harryp text-golden mt-6 mb-4">Registration Fees</h3>
+        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
         <p className="text-dark-brown">{eventData.fees}</p>
       </motion.div>
+
+      {/* Coordinators Section */}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="bg-parchment bg-cover p-8 rounded-lg shadow-lg mx-4 my-8"
+            >
+      
+              {/* Faculty Coordinator */}
+              <div className="flex items-center space-x-4 mb-6">
+                <img
+                  src={eventData.facultyCoordinator.image}
+                  alt={eventData.facultyCoordinator.name}
+                  className="w-16 h-16 rounded-full"
+                />
+                <div>
+                  <h4 className="text-xl font-harryp text-amber-700">{eventData.facultyCoordinator.name}</h4>
+                  <p className="text-dark-brown">Faculty Coordinator</p>
+                  <p className="text-dark-brown">{eventData.facultyCoordinator.contact}</p>
+                </div>
+              </div>
+      
+              {/* Event Coordinators */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {eventData.eventCoordinators.map((coordinator, index) => (
+                  <div key={index} className="flex items-center space-x-4">
+                    <img
+                      src={coordinator.image}
+                      alt={coordinator.name}
+                      className="w-16 h-16 rounded-full"
+                    />
+                    <div>
+                      <h4 className="text-xl font-harryp text-amber-700">{coordinator.name}</h4>
+                      <p className="text-dark-brown">{coordinator.contact}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
