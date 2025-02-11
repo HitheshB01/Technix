@@ -6,7 +6,7 @@ const EventSchedule = () => {
   const events = [
     { time: '11:30 AM - 12:30 PM', session1: 'Photography & IT Manager', session2: 'Coding, Web Design, Quiz', session3: 'Gaming' },
     { time: '12:30 - 2:30 PM', session1: 'Photography & IT Manager (Ongoing)', session2: 'Surprise Event', session3: 'Gaming' },
-    { time: '2:30 - 3:00 PM', session1: 'Break', session2: '', session3: '' },
+    { time: '2:30 - 3:00 PM', session1: 'Break', session2: 'Break', session3: 'Break' },
     { time: '3:00 - 5:00 PM', session1: 'Photography & IT Manager (Ongoing)', session2: 'Coding, Web Design, Quiz', session3: 'Treasure Hunt' },
   ];
 
