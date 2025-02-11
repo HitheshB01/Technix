@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import logo from '../logos/photo.png';
 import sid from '../coord_pic/sid.jpeg';
 import gvd from '../coord_pic/gvd.png';
+import tej from '../coord_pic/tej.jpg'
 
 
 const Photo = () => {
@@ -35,7 +36,7 @@ const Photo = () => {
       },
       {
         name: 'Tejaswini',
-        image: '/assets/event-coordinator2.jpg',
+        image: tej,
         contact: '+91 9008929792',
       },
     ],
