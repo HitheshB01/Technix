@@ -84,14 +84,17 @@ import photo from '../logos/photo.png';
 import ITManager from '../logos/ITManager.png';
 
 const events = [
-  { id: "webDesign", title: 'CSSlytherin', color: 'bg-red-900', symbol: web },
   { id: "coding", title: 'Code Of Phoenix', color: 'bg-red-900', symbol: coding },
-  { id: "itQuiz", title: 'Spells, Scrolls & Syntax', color: 'bg-green-900', symbol: quiz },
-  { id: "bgmi", title: 'Quidditch Of Consoles', color: 'bg-green-900', symbol: bgmi },
-  { id: "treasureHunt", title: 'The Golden Snitch', color: 'bg-blue-900', symbol: TreasureHunt },
+  { id: "treasureHunt", title: 'The Golden Snitch', color: 'bg-red-900', symbol: TreasureHunt },
+  { id: "webDesign", title: 'CSSlytherin', color: 'bg-green-900', symbol: web },
+  { id: "itManager", title: 'Quad-Wizard Gauntlet', color: 'bg-green-900', symbol: ITManager },
+  { id: "itQuiz", title: 'Spells, Scrolls & Syntax', color: 'bg-yellow-600', symbol: quiz },
+
+  { id: "bgmi", title: 'Quidditch Of Consoles', color: 'bg-yellow-600', symbol: bgmi },
+
+
   { id: "surpriseEvent", title: 'Azkabans Breakout', color: 'bg-blue-900', symbol: surprise },
-  { id: "photography", title: 'The Daily Prophet', color: 'bg-yellow-900', symbol: photo },
-  { id: "itManager", title: 'Quad-Wizard Gauntlet', color: 'bg-yellow-900', symbol: ITManager },
+  { id: "photography", title: 'The Daily Prophet', color: 'bg-blue-900', symbol: photo },
 ];
 
 const EventSection = () => {

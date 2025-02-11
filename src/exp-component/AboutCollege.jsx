@@ -56,14 +56,14 @@ const AboutCollege = () => {
         </div>
       </section>
 
-      {/* Golden Snitch Scroll Indicator */}
+      {/* Golden Snitch Scroll Indicator
       <motion.img
         src="/icons/golden-snitch.png"
         alt="Golden Snitch"
         className="w-12 h-12 absolute bottom-8 right-8"
         animate={{ y: [0, 20, 0], rotate: [0, 360] }}
         transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
-      />
+      /> */}
     </div>
   );
 };

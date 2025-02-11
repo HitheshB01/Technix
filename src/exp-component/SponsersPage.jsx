@@ -3,12 +3,15 @@ import { motion } from 'framer-motion';
 import viva from '../logos/viva.png';
 import tayi from '../logos/tayi.png';
 import mias from '../logos/mias.png';
+import shivu from '../logos/shivu.png';
 
 const SponsorsPage = () => {
   const sponsors = [
     { name: 'VIVATECH', logo: viva, description: 'Major supporter of Technix6.0' },
     { name: 'TAYI', logo: tayi, description: 'Key contributor to the fest' },
     { name: 'MIAS CAFE', logo: mias, description: 'Valuable partner in magic and tech' },
+    { name: 'KERAMRUTH', logo: shivu, description: 'Appajith Ogranics Store' },
+
   ];
 
   return (

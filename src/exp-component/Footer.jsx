@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
           <div className="flex space-x-4 mt-4">
             {[
-              { icon: <Instagram className="w-6 h-6" />, path: 'https://instagram.com' },
+              { icon: <Instagram className="w-6 h-6" />, path: 'https://www.instagram.com/technix6.0?igsh=ZHhxZ2N0dXFyZWls' },
               // { icon: <Twitter className="w-6 h-6" />, path: 'https://twitter.com' },
               // { icon: <Linkedin className="w-6 h-6" />, path: 'https://linkedin.com' },
             ].map((social, index) => (
