@@ -12,12 +12,7 @@ const EventSchedule = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white py-12 px-4">
-      {/* Registration & Inauguration */}
-      <div className="text-center mb-6">
-        <p className="text-xl font-bold text-yellow-500 font-magic">Registration: 7:30 - 9:00 AM</p>
-        <p className="text-xl font-bold text-yellow-500 font-magic">Inauguration: 9:00 - 11:30 AM</p>
-        <p className="text-sm text-gray-400">For a better experience, view the schedule on a desktop.</p>
-      </div>
+      
 
       {/* Table Title */}
       <motion.h1
@@ -28,6 +23,12 @@ const EventSchedule = () => {
       >
         Technix6.0 - The Grand Wizarding Event Schedule
       </motion.h1>
+      {/* Registration & Inauguration */}
+      <div className="text-center mb-6">
+        <p className="text-xl font-bold text-yellow-500 font-magic">Registration: 7:30 - 9:00 AM</p>
+        <p className="text-xl font-bold text-yellow-500 font-magic">Inauguration: 9:00 - 11:30 AM</p>
+        <p className="text-sm text-gray-400">For a better experience, view the schedule on a desktop.</p>
+      </div>
 
       {/* Table */}
       <motion.div
