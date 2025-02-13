@@ -13,7 +13,7 @@ const ItManager = () => {
 
     logo: logo, // Replace with your logo path
     tagline: ' Only the best can lead the rest.',
-    description: 'Just as the Triwizard champions braved perilous tasks, this event will test your leadership, strategy, and decision-making. Only the sharpest minds can conquer the gauntlet and prove themselves the true master of the digital realm!',
+    description: 'Just as the Triwizard champions braved perilous tasks, this four-round gauntlet will push your wit, strategy, and resilience to the limit. Only those with a sharp mind, quick decision-making, and the ability to adapt under pressure will survive. Your logical reasoning, technical acumen, and persuasive skills will be put to the test as you tackle challenges designed to separate the leaders from the followers. The digital realm awaits its true champion—will you rise to claim the title, or will the trials outmatch you? The gauntlet has been cast—step forward if you dare!',
     rules: [
       'Members per team: 1.',
       'Event consists of multiple rounds.',
@@ -101,10 +101,45 @@ const ItManager = () => {
           ))}
         </ul>
 
-        {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
-        <p className="text-dark-brown">{eventData.fees}</p>
+       
       </motion.div>
+
+      <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="bg-gradient-to-r from-red-800 to-red-500 p-8 rounded-lg shadow-lg mx-4 my-8"
+            >
+              {/* <h3 className="text-3xl font-harryp text-golden text-center mb-6">Prizes & Fees</h3> */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* Registration Fees */}
+                <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+                          >
+                            <h4 className="text-2xl font-harryp text-amber-700 mb-2">Registration Fees</h4>
+                            <p className="text-dark-brown text-xl">₹150 per team</p>
+                          </motion.div>
+      
+                {/* Winner Prize */}
+                {/* <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+                >
+                  <h4 className="text-2xl font-harryp text-amber-700 mb-2">Winner Prize</h4>
+                  <p className="text-dark-brown text-xl">₹2000</p>
+                </motion.div> */}
+      
+                {/* Runner-Up Prize */}
+                {/* <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+                >
+                  <h4 className="text-2xl font-harryp text-amber-700 mb-2">Runner-Up Prize</h4>
+                  <p className="text-dark-brown text-xl">₹1000</p>
+                </motion.div> */}
+              </div>
+            </motion.div>
 
       {/* Coordinators Section */}
       <motion.div

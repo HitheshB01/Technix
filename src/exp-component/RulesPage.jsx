@@ -14,9 +14,9 @@ const RulesPage = () => {
     {
       title: "Eligibility Criteria 🎓",
       items: [
-        "Only MCA and BCA students are allowed to participate.",
-        "Individual Events: Maximum 3 participants per college.",
-        "Group Events: Maximum 2 teams per college.",
+        "All IT and Managenment students are allowed to participate.",
+        // "Individual Events: Maximum 3 participants per college.",
+        // "Group Events: Maximum 2 teams per college.",
       ],
     },
     {

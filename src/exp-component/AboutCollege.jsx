@@ -32,7 +32,7 @@ const AboutCollege = () => {
       {/* College Description Section */}
       <section className="py-16 px-4">
         <h2 className="text-4xl font-harryp text-dark-brown text-center mb-8">
-          About BMSIT
+          About BMSIT&M
         </h2>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
           {/* College Picture */}

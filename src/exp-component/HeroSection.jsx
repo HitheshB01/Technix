@@ -41,6 +41,31 @@ const HeroSection = () => {
           Unleash the Magic of Code & Wizardry!
         </motion.p>
 
+        {/* Pool Prize Announcement */}
+        <motion.div
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1, delay: 1, type: 'spring', stiffness: 100 }}
+          className="bg-parchment p-6 rounded-lg shadow-lg border-2 border-golden mb-8"
+        >
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 1.5 }}
+            className="text-3xl md:text-4xl font-harryp text-dark-brown"
+          >
+          Prize Pool 
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 2 }}
+            className="text-2xl md:text-3xl font-lumos text-amber-700 mt-2"
+          >
+           <span className="text-4xl md:text-5xl font-bold">Upto ₹27,000</span> 
+          </motion.p>
+        </motion.div>
+
         {/* CTA Button */}
         <MagicButton />
       </div>

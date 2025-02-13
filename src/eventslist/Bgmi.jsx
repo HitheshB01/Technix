@@ -105,9 +105,45 @@ const Bgmi = () => {
           ))}
         </ul>
 
-        {/* Registration Fees */}
-        <h3 className="text-2xl font-harryp text-amber-700 mt-6 mb-4">Registration Fees</h3>
-        <p className="text-dark-brown">{eventData.fees}</p>
+       
+      </motion.div>
+
+      {/* Prize and Fees Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="bg-gradient-to-r from-red-800 to-red-500 p-8 rounded-lg shadow-lg mx-4 my-8"
+      >
+        {/* <h3 className="text-3xl font-harryp text-golden text-center mb-6">Prizes & Fees</h3> */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Registration Fees */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+          >
+            <h4 className="text-2xl font-harryp text-amber-700 mb-2">Registration Fees</h4>
+            <p className="text-dark-brown text-xl">₹350 per team</p>
+          </motion.div>
+
+          {/* Winner Prize */}
+          {/* <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+          >
+            <h4 className="text-2xl font-harryp text-amber-700 mb-2">Winner Prize</h4>
+            <p className="text-dark-brown text-xl">₹2500</p>
+          </motion.div> */}
+
+          {/* Runner-Up Prize */}
+          {/* <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-parchment p-6 rounded-lg shadow-lg text-center"
+          >
+            <h4 className="text-2xl font-harryp text-amber-700 mb-2">Runner-Up Prize</h4>
+            <p className="text-dark-brown text-xl">₹1500</p>
+          </motion.div> */}
+        </div>
       </motion.div>
 
       {/* Coordinators Section */}
@@ -150,24 +186,23 @@ const Bgmi = () => {
       </motion.div>
 
       {/* Registration Button */}
-<motion.div
-  initial={{ opacity: 0, y: 50 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5 }}
-  className="flex justify-center my-8"
->
-  <motion.a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSe62-z9ynoMCKW_eXBiHRNmp3euVi9-P2-TMH_fmw3iQwN1aA/viewform?usp=header"
-    target="_blank"
-    rel="noopener noreferrer"
-    whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
-    className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
-  >
-    <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
-    Enroll Now
-  </motion.a>
-</motion.div>
-
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="flex justify-center my-8"
+      >
+        <motion.a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe62-z9ynoMCKW_eXBiHRNmp3euVi9-P2-TMH_fmw3iQwN1aA/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(255, 215, 0, 0.8)' }}
+          className="bg-golden text-night-sky px-8 py-4 rounded-lg text-xl font-harryp relative overflow-hidden border-2 border-yellow-500 shadow-lg hover:shadow-yellow-500 transition duration-300"
+        >
+          <span className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-golden opacity-20 animate-pulse"></span>
+          Enroll Now
+        </motion.a>
+      </motion.div>
     </div>
   );
 };

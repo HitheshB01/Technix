@@ -12,8 +12,6 @@ const EventSchedule = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white py-12 px-4">
-      
-
       {/* Table Title */}
       <motion.h1
         className="text-4xl font-bold text-yellow-500 font-magic text-center mb-8"
@@ -21,8 +19,9 @@ const EventSchedule = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Technix6.0 - The Grand Wizarding Event Schedule
+        Technix6.0 - Day 1 Schedule
       </motion.h1>
+
       {/* Registration & Inauguration */}
       <div className="text-center mb-6">
         <p className="text-xl font-bold text-yellow-500 font-magic">Registration: 7:30 - 9:00 AM</p>
@@ -80,6 +79,27 @@ const EventSchedule = () => {
             </motion.div>
           ))}
         </div>
+      </motion.div>
+
+      {/* Note Points */}
+      <motion.div
+        className="bg-gray-800 rounded-lg shadow-lg p-6 mt-8"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+      >
+        <h2 className="text-2xl font-bold text-yellow-500 font-magic mb-4">Important Notes</h2>
+        <ul className="list-disc list-inside text-gray-300 space-y-2">
+          <li>
+            <strong>Photography & IT Manager Participants:</strong> Those who participate in Photography & IT Manager can not participate in any other event.
+          </li>
+          <li>
+            <strong>Gaming Participants:</strong> Those who participate in Gaming can also participate in Treasure Hunt, and vice versa.
+          </li>
+          <li>
+            <strong>Coding, Web Design, & IT Quiz Participants:</strong> Those who participate in Coding, Web Design, or IT Quiz can also participate in the Surprise Event, and vice versa.
+          </li>
+        </ul>
       </motion.div>
     </div>
   );
