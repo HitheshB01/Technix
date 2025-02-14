@@ -11,7 +11,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-3 flex justify-start items-center">
         {/* Logo */}
-        <div className="text-golden font-harryp text-2xl">Technix 6.0</div>
+        <div className="text-golden   text-2xl">Technix 6.0</div>
       </div>
     </motion.nav>
   );
