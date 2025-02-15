@@ -15,8 +15,8 @@ const RulesPage = () => {
       title: "Eligibility Criteria 🎓",
       items: [
         "All IT and Managenment students are allowed to participate.",
-        // "Individual Events: Maximum 3 participants per college.",
-        // "Group Events: Maximum 2 teams per college.",
+        "Individual and Dual Events: Maximum 4 participants per college.",
+        "Group Events: Maximum 3 teams per college.",
       ],
     },
     {
