@@ -56,7 +56,7 @@ const Container = () => {
               <StudentCoordinators/>
               {/* <DesignCommittee/> */}
               <SponsorsPage/>
-              <TechnixGallery/>
+               <TechnixGallery/>
             </>
           }
         />
