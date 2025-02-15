@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import hit from "../coord_pic/hithu.jpeg";
 import shreya from "../coord_pic/shreya.jpeg";
+import ajay from "../coord_pic/ajay.jpeg";
+import sinchana from "../coord_pic/sinchana.jpeg";
+import gaurang from "../coord_pic/gau.jpeg";
 // import thirdPerson from "../coord_pic/third.jpeg";
 
 const DesignCommittee = () => {
@@ -21,13 +24,13 @@ const DesignCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-golden relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={hit}
+                src={gaurang}
                 alt="Hithesh"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-golden opacity-0 hover:opacity-20 transition-opacity"></div>
             </div>
-            <h3 className="text-lg font-harryp text-amber-600 mt-2">Hithesh</h3>
+            <h3 className="text-lg font-harryp text-amber-600 mt-2">Gaurang</h3>
             {/* <p className="text-dark-brown italic mx-10">Head Designer</p>
             <p className="text-xs text-dark-brown mt-1">
               Contact: <a href="tel:9901767545" className="font-bold text-blue-500 underline">9901767545</a>
@@ -43,13 +46,13 @@ const DesignCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-golden relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={shreya}
+                src={sinchana}
                 alt="Shreya"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-golden opacity-0 hover:opacity-20 transition-opacity"></div>
             </div>
-            <h3 className="text-lg font-harryp text-amber-600 mt-2">Shreya</h3>
+            <h3 className="text-lg font-harryp text-amber-600 mt-2">sinchana</h3>
             {/* <p className="text-dark-brown italic">Deputy Designer</p>
             <p className="text-xs text-dark-brown mt-1">
               Contact: <a href="tel:8762635749" className="font-bold text-blue-500 underline">8762635749</a>
@@ -65,13 +68,13 @@ const DesignCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-golden relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={shreya}
+                src={ajay}
                 alt="Third Member"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-golden opacity-0 hover:opacity-20 transition-opacity"></div>
             </div>
-            <h3 className="text-lg font-harryp text-amber-600 mt-2">Third Member</h3>
+            <h3 className="text-lg font-harryp text-amber-600 mt-2">Ajay</h3>
             {/* <p className="text-dark-brown italic">Designer</p>
             <p className="text-xs text-dark-brown mt-1">
               Contact: <a href="tel:1234567890" className="font-bold text-blue-500 underline">1234567890</a>

@@ -54,7 +54,7 @@ const Container = () => {
               <EventSchedule/>
               <AdvisoryPanel/>
               <StudentCoordinators/>
-              {/* <DesignCommittee/> */}
+              <DesignCommittee/>
               <SponsorsPage/>
                <TechnixGallery/>
             </>

@@ -109,14 +109,14 @@ const TechnixGallery = () => {
     <div className="relative w-full h-screen overflow-hidden bg-gradient-to-b from-black to-gray-900">
       {/* First Row */}
       <motion.h1
-              className="text-4xl font-bold text-yellow-500 font-magic text-center mb-8"
+              className="text-4xl font-bold text-yellow-500 font-magic text-center mb-8 pb-10"
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
               Making Of Technix6.0
             </motion.h1>
-      <div className="absolute top-8 w-full">
+      <div className="absolute top-12 w-full">
         {renderRow(row1Images, "8%")}
       </div>
 
