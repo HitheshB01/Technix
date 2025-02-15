@@ -56,6 +56,7 @@ const HeroSection = () => {
           >
           Prize Pool 
           </motion.h2>
+          
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -64,6 +65,14 @@ const HeroSection = () => {
           >
            <span className="text-4xl md:text-5xl font-bold">Upto ₹27,000</span> 
           </motion.p>
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 1.5 }}
+            className="text-3xl md:text-4xl font-harryp text-dark-brown"
+          >
+          OnSpot Registration Available 
+          </motion.h2>
         </motion.div>
 
         {/* CTA Button */}

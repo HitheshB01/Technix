@@ -11,8 +11,8 @@ const SponsorsPage = () => {
     { name: 'VIVATECH', logo: viva, description: 'Major supporter of Technix6.0' },
     { name: 'TAYI', logo: tayi, description: 'Key contributor to the fest' },
     { name: 'MIAS CAFE', logo: mias, description: 'Valuable partner in magic and tech' },
-    { name: 'KERAMRUTH', logo: shivu, description: 'Appajith Ogranics Store' },
-    { name: 'EMBERQUEST', logo: Ember, description: 'Appajith Ogranics Store' },
+    { name: 'Appajith Ogranics Store', logo: shivu, description: 'Trusted partner in innovation' },
+    { name: 'EMBERQUEST', logo: Ember, description: 'Dedicated supporter of creativity and technology' },
 
 
 

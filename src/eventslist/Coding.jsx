@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import logo from '../logos/coding.png';
 import nag from '../coord_pic/nag.jpg';
 import gvd from '../coord_pic/gvd.png';
+import bhat from '../coord_pic/bhat.jpeg';
 const Coding = () => {
   // Event Data
   const eventData = {
@@ -39,7 +40,7 @@ const Coding = () => {
       },
       {
         name: 'Abhishek Bhatt',
-        image: '/assets/event-coordinator2.jpg', // Replace with your image path
+        image: bhat, // Replace with your image path
         contact: '+91 70058 08873',
       },
     ],
