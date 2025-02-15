@@ -40,14 +40,14 @@
 // export default App;
 
 import React from 'react'
-import Navbar from './exp-component/Navbar'
-import HeroSection from './exp-component/HeroSection'
-import AboutCollege from './exp-component/AboutCollege'
-import AboutTechnix from './exp-component/AboutTechnix'
-import EventSection from './exp-component/EventSection'
-import EventDetailPage from './exp-component/EventDetailPage'
+// import Navbar from './exp-component/Navbar'
+// import HeroSection from './exp-component/HeroSection'
+// import AboutCollege from './exp-component/AboutCollege'
+// import AboutTechnix from './exp-component/AboutTechnix'
+// import EventSection from './exp-component/EventSection'
+// import EventDetailPage from './exp-component/EventDetailPage'
 import Container from './exp-component/Container'
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 
 const App = () => {

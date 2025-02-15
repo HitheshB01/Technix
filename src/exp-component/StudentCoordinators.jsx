@@ -49,7 +49,7 @@ const StudentCoordinators = () => {
               <div className="absolute inset-0 bg-golden opacity-0 hover:opacity-20 transition-opacity"></div>
             </div>
             <h3 className="text-2xl font-harryp text-amber-600 mt-4">Shreya</h3>
-            <p className="text-dark-brown italic">Deputy Coordinator</p>
+            <p className="text-dark-brown italic">Head Coordinator</p>
             <p className="text-sm text-dark-brown mt-2">
               Contact: <a href="tel:8762635749" className="font-bold text-blue-500 underline">8762635749</a>
             </p>

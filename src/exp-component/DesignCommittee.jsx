@@ -1,11 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import hit from "../coord_pic/hithu.jpeg";
-import shreya from "../coord_pic/shreya.jpeg";
+// import hit from "../coord_pic/hithu.jpeg";
+// import shreya from "../coord_pic/shreya.jpeg";
 import ajay from "../coord_pic/ajay.jpeg";
 import sinchana from "../coord_pic/sinchana.jpeg";
 import gaurang from "../coord_pic/gau.jpeg";
-// import thirdPerson from "../coord_pic/third.jpeg";
 
 const DesignCommittee = () => {
   return (
@@ -15,7 +14,7 @@ const DesignCommittee = () => {
           Decor & Design Committee
         </h2>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {/* Hithesh */}
+          {/* Hithesh */}   
           <motion.div
             whileHover={{ y: -5, scale: 1.02 }}
             transition={{ type: "spring", stiffness: 300 }}

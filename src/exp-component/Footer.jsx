@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Mail, Phone, Instagram,  } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
                 href={social.path}
                 whileHover={{ rotate: 15, scale: 1.2 }}
                 className="text-golden hover:text-golden-dark transition-all"
-              >
+              >Technix6.0
                 {social.icon}
               </motion.a>
             ))}

@@ -6,6 +6,7 @@ import AboutCollege from "./AboutCollege";
 import AboutTechnix from "./AboutTechnix";
 import EventSection from "./EventSection";
 
+
 // Import all event components from the eventslist folder
 import BGMI from "../eventslist/Bgmi.jsx";
 import Coding from "../eventslist/Coding.jsx";
@@ -17,7 +18,13 @@ import Photography from "../eventslist/Photo.jsx";
 import ITManager from "../eventslist/ItManager.jsx";
 import AdvisoryPanel from "./Advisorypanel.jsx";
 import StudentCoordinators from "./StudentCoordinators.jsx";
+import StudentCommittee from "./StudentCommittee.jsx";
+
+
+
+
 import Footer from "./Footer.jsx";
+
 import RulesPage from "./RulesPage.jsx";
 import SponsorsPage from "./SponsersPage.jsx";
 import EventSchedule from "./EventSchedule.jsx";
@@ -54,6 +61,8 @@ const Container = () => {
               <EventSchedule/>
               <AdvisoryPanel/>
               <StudentCoordinators/>
+              {/* <StudentCommittee/> */}
+              {/* <StudentCommittee/> */}
               <DesignCommittee/>
               <SponsorsPage/>
                <TechnixGallery/>
