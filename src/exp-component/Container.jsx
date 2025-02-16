@@ -61,7 +61,7 @@ const Container = () => {
               <EventSchedule/>
               <AdvisoryPanel/>
               <StudentCoordinators/>
-              {/* <StudentCommittee/> */}
+              <StudentCommittee/>
               {/* <StudentCommittee/> */}
               <DesignCommittee/>
               <SponsorsPage/>

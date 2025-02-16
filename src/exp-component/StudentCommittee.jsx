@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import pramod from "../coord_pic/pramod.jpeg";
+import pramod from "../coord_pic/pramu.jpeg";
 import siddd from "../coord_pic/siddd.jpeg";
 import santuu from "../coord_pic/santuu.jpeg";
 
