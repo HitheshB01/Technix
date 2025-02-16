@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -9,31 +9,44 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const festDate = new Date('2023-12-01T00:00:00').getTime();
-    const interval = setInterval(() => {
-      const now = new Date().getTime();
-      const difference = festDate - now;
+    const calculateTimeLeft = () => {
+      const now = new Date();
+      const targetDate = new Date("2025-02-17T23:59:59"); // Ensure future date
+      const difference = targetDate - now;
 
-      setTimeLeft({
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-        seconds: Math.floor((difference % (1000 * 60)) / 1000),
-      });
-    }, 1000);
+      // console.log("Time Difference:", difference); // Debugging
 
-    return () => clearInterval(interval);
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / (1000 * 60)) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        });
+      } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+      }
+    };
+
+    calculateTimeLeft(); // Initial calculation
+    const timer = setInterval(calculateTimeLeft, 1000);
+
+    return () => clearInterval(timer); // Clear interval on unmount
   }, []);
 
   return (
-    <div className="p-4 bg-parchment-scroll bg-cover text-dark-brown mt-8">
-      <h2 className="text-2xl font-lumos">Time Until Technix 6.0:</h2>
-      <div className="flex gap-4 mt-2">
-        <span>{timeLeft.days}d</span>
-        <span>{timeLeft.hours}h</span>
-        <span>{timeLeft.minutes}m</span>
-        <span>{timeLeft.seconds}s</span>
-      </div>
+    <div className="flex justify-center space-x-4 mt-2">
+      {["Days", "Hours", "Minutes", "Seconds"].map((label, index) => {
+        const value = Object.values(timeLeft)[index];
+        return (
+          <div key={label} className="text-center">
+            <span className="text-3xl md:text-4xl font-bold text-dark-brown">
+              {value}
+            </span>
+            <span className="block text-sm text-amber-700">{label}</span>
+          </div>
+        );
+      })}
     </div>
   );
 };

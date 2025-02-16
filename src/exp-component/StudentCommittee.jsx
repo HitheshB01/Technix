@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ajay from "../coord_pic/ajay.jpeg";
-import sinchana from "../coord_pic/sinchana.jpeg";
-import gaurang from "../coord_pic/gau.jpeg";
+
+import pramod from "../coord_pic/pramod.jpeg";
+import siddd from "../coord_pic/siddd.jpeg";
+import santuu from "../coord_pic/santuu.jpeg";
 
 const StudentCommittee = () => {
   return (
@@ -19,12 +20,12 @@ const StudentCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-yellow-500 relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={gaurang}
+                src={pramod}
                 alt="Gaurang"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Gaurang</h3>
+            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Pramod</h3>
           </motion.div>
 
           {/* Sinchana */}
@@ -36,12 +37,12 @@ const StudentCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-yellow-500 relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={sinchana}
+                src={santuu}
                 alt="Sinchana"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Sinchana</h3>
+            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Santu</h3>
           </motion.div>
 
           {/* Ajay */}
@@ -53,12 +54,12 @@ const StudentCommittee = () => {
             <div className="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-yellow-500 relative">
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                src={ajay}
+                src={siddd}
                 alt="Ajay"
                 className="w-full h-full object-cover"
               />
             </div>
-            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Ajay</h3>
+            <h3 className="text-lg font-harryp text-yellow-500 mt-2">Sid</h3>
           </motion.div>
         </div>
       </div>

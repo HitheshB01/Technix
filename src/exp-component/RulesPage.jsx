@@ -16,7 +16,7 @@ const RulesPage = () => {
       items: [
         "All IT and Managenment students are allowed to participate.",
         "Individual and Dual Events: Maximum 4 participants per college.",
-        "Group Events: Maximum 3 teams per college.",
+        "Group Events: Maximum 4 teams per college.",
       ],
     },
     {
