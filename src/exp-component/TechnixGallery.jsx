@@ -19,8 +19,22 @@ import b3 from "../memories/b3.jpeg";
 import b4 from "../memories/b4.jpeg";
 import b5 from "../memories/b5.jpeg";
 
+import c0 from "../memories/c0.jpeg";
+import c1 from "../memories/c1.jpeg";
+import c2 from "../memories/c2.jpeg"; 
+import c3 from "../memories/c3.jpeg";
+import c4 from "../memories/c4.jpeg"; 
+import c5 from "../memories/c5.jpeg";
+import c6 from "../memories/c6.jpeg";
+import c7 from "../memories/c7.jpeg";
+import c8 from "../memories/c8.jpeg";
+import c9 from "../memories/c9.jpeg";
+
 // Sample image data for each row
 const row1Images = [
+  { src: c0 },
+  { src: c2 },
+  { src: c3},
   { src: a1 },
   { src: a2 },
   { src: a3},
@@ -29,6 +43,9 @@ const row1Images = [
 ];
 
 const row2Images = [
+  { src: c1 },
+  { src: c4 },
+  { src: c5},
   { src: a6 },
   { src: a7},
   { src: a8 },
@@ -37,6 +54,9 @@ const row2Images = [
 ];
 
 const row3Images = [
+  { src: c6 },
+  { src: c7 },
+  { src: c8},
   { src: b1 },
   { src: b2},
   { src:b3 },
