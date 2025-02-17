@@ -24,8 +24,8 @@ const EventSchedule = () => {
 
       {/* Registration & Inauguration */}
       <div className="text-center mb-6">
-        <p className="text-xl font-bold text-yellow-500 font-magic">Registration: 7:30 - 10:00 AM</p>
-        <p className="text-xl font-bold text-yellow-500 font-magic">Inauguration: 10:00 - 11:30 AM</p>
+        <p className="text-xl font-bold text-yellow-500 font-magic">Registration: 7:30 - 09:30 AM</p>
+        <p className="text-xl font-bold text-yellow-500 font-magic">Inauguration: 09:30 - 11:30 AM</p>
         <p className="text-sm text-gray-400">For a better experience, view the schedule on a desktop.</p>
       </div>
 

@@ -29,6 +29,7 @@ import c6 from "../memories/c6.jpeg";
 import c7 from "../memories/c7.jpeg";
 import c8 from "../memories/c8.jpeg";
 import c9 from "../memories/c9.jpeg";
+import d1 from "../memories/d1.jpeg";
 
 // Sample image data for each row
 const row1Images = [
@@ -54,6 +55,7 @@ const row2Images = [
 ];
 
 const row3Images = [
+  { src: d1 },
   { src: c6 },
   { src: c7 },
   { src: c8},

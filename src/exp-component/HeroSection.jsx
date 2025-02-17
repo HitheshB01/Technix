@@ -5,7 +5,7 @@ import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-screen bg-night-sky overflow-hidden">
+    <div className="relative h-[125vh] bg-night-sky overflow-hidden flex flex-col justify-center items-center px-4">
       {/* Background Layers */}
       <div className="absolute inset-0">
         {/* Hogwarts Silhouette */}
@@ -21,7 +21,7 @@ const HeroSection = () => {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+      <div className="relative z-10 flex flex-col items-center text-center w-full max-w-2xl">
         {/* Fest Name */}
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -42,7 +42,7 @@ const HeroSection = () => {
           Unleash the Magic of Code & Wizardry!
         </motion.p>
 
-        {/* Prize Pool Announcement */}
+        {/* Prize Pool & Registration Fees */}
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -55,7 +55,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="text-2xl md:text-3xl font-harryp text-dark-brown"
           >
-            Prize Pool
+            Prize Pool & Registration Fees
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -65,6 +65,31 @@ const HeroSection = () => {
           >
             <span className="text-3xl md:text-4xl font-bold">Upto ₹27,000</span>
           </motion.p>
+          <div className="grid grid-cols-2 gap-2 text-dark-brown text-sm md:text-lg mt-3">
+            <div>
+              <p className="font-bold">₹150</p>
+              <ul className="list-disc pl-4">
+                <li>IT Manager</li>
+                <li>Coding</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-bold">₹250</p>
+              <ul className="list-disc pl-4">
+                <li>IT Quiz</li>
+                <li>Web Design</li>
+                <li>Surprise Event</li>
+              </ul>
+            </div>
+            <div className="col-span-2 text-center">
+              <p className="font-bold">₹350</p>
+              <ul className="list-disc pl-4 inline-block text-left">
+                <li>Treasure Hunt</li>
+                <li>BGMI</li>
+              </ul>
+            </div>
+          </div>
         </motion.div>
 
         {/* Last Date Announcement */}
@@ -81,8 +106,8 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="text-2xl md:text-3xl font-harryp text-dark-brown text-center"
           >
-            On-Spot Registration Available{" "}
-            <span className="text-amber-700 text-lg md:text-xl">(*Except Treasure Hunt)</span>
+            On-Spot Registration Available
+            <span className="text-amber-700 text-lg md:text-xl"> (*Except Treasure Hunt)</span>
           </motion.h2>
 
           {/* Timer for Online Registration */}
