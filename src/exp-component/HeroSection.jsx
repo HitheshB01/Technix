@@ -106,12 +106,23 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 1.5 }}
             className="text-2xl md:text-3xl font-harryp text-dark-brown text-center"
           >
-            On-Spot Registration Available
-            <span className="text-amber-700 text-lg md:text-xl"> (*Except Treasure Hunt)</span>
+            On-Spot Registration Closed
+            <span className="text-amber-700 text-lg md:text-xl">Thank You! </span>
+          </motion.h2>
+
+
+          <motion.h2
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 1.5 }}
+            className="text-2xl md:text-3xl font-harryp text-dark-brown text-center"
+          >
+            Online Registration Closed
+            {/* <span className="text-amber-700 text-lg md:text-xl"> (*Except Treasure Hunt)</span> */}
           </motion.h2>
 
           {/* Timer for Online Registration */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 2 }}
@@ -124,7 +135,7 @@ const HeroSection = () => {
             <p className="text-sm md:text-lg font-lumos text-amber-700 mt-2">
               Last Date: 17th Feb, 11:59 PM
             </p>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* CTA Button */}
