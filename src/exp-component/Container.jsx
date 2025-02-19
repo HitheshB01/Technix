@@ -30,6 +30,7 @@ import SponsorsPage from "./SponsersPage.jsx";
 import EventSchedule from "./EventSchedule.jsx";
 import DesignCommittee from "./DesignCommittee.jsx";
 import TechnixGallery from "./TechnixGallery.jsx";
+import EventSchedule2 from "./EventSchedule2.jsx";
 
 // Event ID to Component Mapping
 const eventRoutes = [
@@ -59,6 +60,8 @@ const Container = () => {
               <RulesPage/>
               <EventSection />
               <EventSchedule/>
+              <EventSchedule2/>
+              
               <AdvisoryPanel/>
               <StudentCoordinators/>
               <StudentCommittee/>
